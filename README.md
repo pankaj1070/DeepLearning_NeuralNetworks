@@ -32,21 +32,27 @@ Finally using the test data the model's loss and accuracy was determined.
 
 TensorFlow and Keras were used to optimise the model to improve the model's accuracy.
 
+
 There were three different alternatives applied to improve the model:
 
-Alternative Model 1 (Adding another layer to the existing model)
+Alternative Model 1 : Adding another layer to the existing model
 
-Alternative Model 2 (Using less nodes for hidden layer, linear activation for output layer and decreasing the no. of epochs to 20)
+Alternative Model 2 : Using less nodes for hidden layer, linear activation for output layer and decreasing the no. of epochs to 20
 
-Alternative Model 3 (Using more nodes for hidden layer and increasing the no. of epochs to 100))
+Alternative Model 3 : Using more nodes for hidden layer and increasing the no. of epochs to 100
+
 
 # Results:
 
 All the alternative models had more or less same accuracy but the linear activation model showed more loss compared to the other two models.
 
-This indicates that there was a non-linear realtionship between the data and the dataset was complex and hence sigmoid activation fuction was a better choice.
+This indicates that there was a non-linear realtionship between the dataset. It also signifies the dataset was complex and hence sigmoid activation function was a better choice.
+
+
 
 Below are the final results using the original and 3 alternatives:
+
+
 
 Original Model Results
 268/268 - 0s - loss: 0.5556 - accuracy: 0.7310 - 333ms/epoch - 1ms/step
